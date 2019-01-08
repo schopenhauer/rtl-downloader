@@ -1,0 +1,16 @@
+<form method="post" action="/">
+  <fieldset>
+    <label for="url">URL</label>
+    <input type="text" placeholder="Setz den Link zur RTL Websäit heihin..." id="url" name="url" value="<%= DEFAULT_URL %>">
+    <label for="quality">Video-Qualit&eacute;it</label>
+    <select id="quality" name="quality">
+      <option value="144p">Low quality (144p)</option>
+      <option value="240p">Average quality (240p)</option>
+      <option value="480p" selected>High quality (480p)</option>
+      <option value="720p">Very high quality (720p)</option>
+    </select>
+    <br />
+    <br />
+    <input class="button button-primary" type="submit" value="Eroflueden">
+  </fieldset>
+</form>
